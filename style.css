@@ -1,0 +1,82 @@
+@keyframes gradient-animation{
+   0%{
+      background-position: 0% 50%;
+   }
+   50%{
+      background-position: 100% 50%;
+   }
+   100%{
+      background-position: 0% 50%;
+   }
+}
+#my-image{
+   width: 250px;
+   height: auto;
+   border-radius: 50%;
+   border: 5px solid white;
+}
+@media (max-width: 764px){
+   #my-image{
+      width: 200px;
+      height: auto;
+   }
+   @media (max-width: 576px) {
+      #my-image{
+         width: 150px;
+         height: auto;
+      }
+   }
+}
+
+/* ---------------background-colors--------------- */
+body{
+   background-color: #222831;
+}
+.gradient-bg{
+   background: linear-gradient(135deg, #332D56, #4E6688, #71C0BB);
+   background-size: 180% 180%;
+   animation: gradient-animation 12s ease infinite;
+}
+.red-bg{
+   background-color: #FF8282 !important;
+}
+.blue-bg{
+   background-color: #4E6688 !important;
+}
+.darkblue-bg{
+   background-color: #332d56 !important;
+}
+.lightblue-bg{
+   background-color: #71C0BB !important;
+}
+.transparent{
+   background-color: transparent !important;
+}
+.dark-bg{
+   background-color: #222831 !important;
+}
+/* ----------------------------------------- */
+
+/* ----------fonts and text styles---------- */
+.fancy-font{
+   font-family: "Tangerine", cursive !important;
+   letter-spacing: 5px !important;
+} 
+.sans-font{
+   font-family: "Roboto", sans-serif !important;
+   letter-spacing: 1px !important;
+}
+.serif-font{
+   font-family:  "Forum", serif !important;
+}
+/* ------------------------------------------ */
+
+.project-card{
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.project-card:hover{
+   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+   transform: scale(1.05);
+   transition: transform 0.3s ease;
+   transition: box-shadow 0.3 ease;
+}

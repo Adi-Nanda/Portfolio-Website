@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>  
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Aditya Nanda</title>
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+   <link rel="stylesheet" href="./style.css">
+
+   <!-- fonts -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+   
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Forum&display=swap" rel="stylesheet">
+   <!--  -->
+</head>
+<body >
+
+   
+   <nav class="navbar navbar-expand fixed-top dark-bg">
+      <div class="container-fluid justify-content-end">
+         <ul class="navbar-nav gap-md-3">
+            <li class="nav-item">
+               <a class="nav-link text-light" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link text-light" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link text-light" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link text-light" href="#">Resume</a>
+            </li>
+         </ul>
+      </div>
+   </nav>
+
+   <div class="gradient-bg py-5 mb-5">
+      <div class="row flex-md-row-reverse align-items-center g-5 mt-md-5 mb-5 py-5 mx-auto">
+         <div class="col-10 col-md-4 mb-md-5 ml-1 ml-sm-3" style="margin-right: 50px"> 
+            <img src="./assets/aditya.jpg" alt="Aditya Nanda" id="my-image"> 
+         </div>
+         <div class="col-md-6">
+            <h1 class="display-2 fw-bold lh-1 mb-md-3 mb-1 text-nowrap fancy-font text-light">
+               Aditya Nanda
+            </h1>
+            <p class="fs-5 lead sans-font text-light">I am a programmer</p>
+         </div>
+      </div>
+   </div>
+
+<!-- about me -->
+   <div id="about"></div>
+   <div class="container py-4 px-5 rounded-4 gradient-bg " style="margin-top: 120px;">
+      <h1 class="card-title my-2 sans-font text-light">
+         About Me
+      </h1>
+      <div class="container row my-3 align-items-center">
+         <div class="col-auto">
+            <img src="./assets/nith-logo.png" alt="NIT hamirpur" width="80px" style="border-radius: 50%;">
+         </div>
+         <div class="col-auto">
+            <p class="my-1 serif-font text-light">Bachelor of Computer Science and Engineering | 2024-2028</p>
+            <a href="https://nith.ac.in/" class="text-light my-1 serif-font" target="_blank">National Institute of Technology Hamirpur, India</a>
+         </div>
+         </div>
+      <p class="card-text my-4 serif-font fs-5 text-light">
+         I'm a budding full-stack web developer with a strong foundation in front-end technologies like HTML, CSS, and Bootstrap. I'm currently expanding my skills in full-stack development to build dynamic, responsive, and scalable web applications.
+         <br><br>Beyond web development, I also have experience with Python and PyQt6, which I've used to create desktop GUI applications. My understanding of Object-Oriented Programming (OOP) helps me write clean, efficient, and maintainable code across different projects.
+         <br><br>I’m highly motivated to keep learning and growing — especially in the areas of Artificial Intelligence (AI) and Machine Learning (ML), which I plan to dive into next. Whether it’s designing a user-friendly interface or solving a programming challenge, I enjoy bringing ideas to life through code.
+      </p>
+   </div>
+<!-- -------- -->
+
+<!-- skills -->
+   <div class="container py-4 px-5 rounded-4 gradient-bg " style="margin-top: 80px;">
+      <h1 class="card-title mt-2 mb-4 sans-font text-light">
+         Skills
+      </h1>
+
+      <div class="accordion mb-5" id="accordionExample">
+         <div class="accordion-item">
+            <h2 class="accordion-header ">
+               <button class="accordion-button collapsed blue-bg text-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+               Front-end Development
+               </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+               <div class="accordion-body darkblue-bg">
+                  <ul class="list-group">
+                     <li class="list-group-item">HTML</li>
+                     <li class="list-group-item">CSS</li>
+                     <li class="list-group-item">Bootstrap</li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+
+         <!-- back-end developer -->
+
+         <div class="accordion-item">
+            <h2 class="accordion-header ">
+               <button class="accordion-button collapsed blue-bg text-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+               Python
+               </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+               <div class="accordion-body darkblue-bg">
+                  <ul class="list-group">
+                     <li class="list-group-item">
+                        <p>
+                        Proficient in Python with experience in building desktop applications using <strong>PyQt6</strong>. 
+                        Skilled in designing responsive GUIs and integrating Python logic with PyQt6 and <strong>APIs</strong> for cross-platform development.
+                        </p>
+                        <a href="./assets/python_basic certificate.pdf" class="mt-2" target="_blank">HackerRank Certificate</a>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                           <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"/>
+                        </svg>
+                     </li>  
+                  </ul>
+               </div>
+            </div>
+         </div>
+
+         <div class="accordion-item">
+            <h2 class="accordion-header ">
+               <button class="accordion-button collapsed blue-bg text-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+               Object Oriented Programming (OOP)
+               </button>
+            </h2>
+            <div id="collapse4" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+               <div class="accordion-body darkblue-bg">
+                  <ul class="list-group">
+                     <li class="list-group-item">
+                        <p>
+                           I have a solid understanding of Object-Oriented Programming principles, including encapsulation, inheritance, polymorphism, and abstraction. 
+                           I use OOP to design clean, maintainable, and modular code structures that reflect real-world entities and interactions.
+                        </p>
+                     </li>  
+                  </ul>
+               </div>
+            </div>
+         </div>
+
+      </div>
+   </div>
+<!-- ------ -->
+
+<!-- Projects -->
+ <div id="projects"></div>
+ <div class="container py-4 px-5 mb-5 rounded-4 gradient-bg " style="margin-top: 80px;">
+   <h1 class="card-title my-2 sans-font text-light pb-4">Projects</h1>
+   <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 gap-5">
+
+      <div class="col card mb-5 px-3  dark-bg project-card" style="width: 18rem;">
+         <img src="https://github.com/user-attachments/assets/1aa623b6-b4ad-476f-9f36-cc31283b25a0" class="card-img-top mt-3" alt="weather app image">
+         <div class="card-body">
+            <h5 class="card-title text-light mb-4 fw-bold">Weather App</h5>
+            <p type="button" class="btn btn-dark btn-outline-light disabled btn-sm">#Python</p>
+            <p type="button" class="btn btn-dark btn-outline-light disabled btn-sm">#PyQt6</p>
+            <p class="card-text text-light">Interactive weather app that shows the real time weather data of a location.</p>
+            <a href="https://github.com/Adi-Nanda/Weather-App" class="btn btn-outline-light" target="_blank">
+               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                  <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+               </svg>
+               Github
+            </a>
+         </div>
+      </div>
+
+   </div>
+ </div>
+<!-- -------- -->
+
+<!-- Contact -->
+<div id="contact"></div>
+<footer class="py-3 mb-md-4 mb-2 mt-lg-5 mt-4" id="contact">
+
+   <div class="px-4 py-5 mt-md-5 mt-3 text-center"> 
+      <h1 class="display-5 mb-5 fw-bold text-light sans-font">Let's Connect</h1>
+      <h2 class="text-light mb-5 lead">
+         Interested in working together or have an opportunity in mind? Feel free to reach out!
+      </h2>
+      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-md-2 mb-1"> 
+         <a href="mailto:aditya2577@gmail.com" target="_blank" class="btn btn-lg px-4 gap-3 red-bg">
+            aditya2577@gmail.com
+         </a>
+      </div>
+      <div class="mt-md-4 mt-3">
+         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-geo-alt-fill text-light pb-2" viewBox="0 0 16 16">
+            <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
+         </svg>
+         <span class="text-light fs-5">Himachla Pradesh, India</span>
+      </div>
+   </div>
+
+   <div class="px-4 pb-3 mb-3 text-center">
+      <div class="d-md-flex justify-content-center gap-4">
+         <a class="text-dark bg-light btn btn-lg px-4 m-2" href="https://github.com/Adi-Nanda" target="_black">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-github text-dark bg-light" viewBox="0 0 16 16">
+               <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+            </svg>
+            GitHub
+         </a>
+         <a class="bg-light btn btn-lg px-4 m-2" href="https://www.linkedin.com/in/aditya-nanda-09a842323/" target="_black" style="color: #0A66C2;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+               <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+            </svg>
+            Linkedin
+         </a>
+         <a class="text-light btn btn-lg px-4 m-2" href="https://discord.com/users/aditya9126" target="_black" style="background-color: #5865F2;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-discord" viewBox="0 0 16 16">
+               <path d="M13.545 2.907a13.2 13.2 0 0 0-3.257-1.011.05.05 0 0 0-.052.025c-.141.25-.297.577-.406.833a12.2 12.2 0 0 0-3.658 0 8 8 0 0 0-.412-.833.05.05 0 0 0-.052-.025c-1.125.194-2.22.534-3.257 1.011a.04.04 0 0 0-.021.018C.356 6.024-.213 9.047.066 12.032q.003.022.021.037a13.3 13.3 0 0 0 3.995 2.02.05.05 0 0 0 .056-.019q.463-.63.818-1.329a.05.05 0 0 0-.01-.059l-.018-.011a9 9 0 0 1-1.248-.595.05.05 0 0 1-.02-.066l.015-.019q.127-.095.248-.195a.05.05 0 0 1 .051-.007c2.619 1.196 5.454 1.196 8.041 0a.05.05 0 0 1 .053.007q.121.1.248.195a.05.05 0 0 1-.004.085 8 8 0 0 1-1.249.594.05.05 0 0 0-.03.03.05.05 0 0 0 .003.041c.24.465.515.909.817 1.329a.05.05 0 0 0 .056.019 13.2 13.2 0 0 0 4.001-2.02.05.05 0 0 0 .021-.037c.334-3.451-.559-6.449-2.366-9.106a.03.03 0 0 0-.02-.019m-8.198 7.307c-.789 0-1.438-.724-1.438-1.612s.637-1.613 1.438-1.613c.807 0 1.45.73 1.438 1.613 0 .888-.637 1.612-1.438 1.612m5.316 0c-.788 0-1.438-.724-1.438-1.612s.637-1.613 1.438-1.613c.807 0 1.451.73 1.438 1.613 0 .888-.631 1.612-1.438 1.612"/>
+            </svg>
+            Discord
+         </a>
+      </div>
+   </div>
+   <p class="text-end text-light px-4">© Aditya Nanda</p>
+</footer>
+<!-- ------- -->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+</body>
+</html>
