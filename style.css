@@ -11,19 +11,20 @@
 }
 #my-image{
    width: 250px;
+   height: 250px;
    height: auto;
    border-radius: 50%;
    border: 5px solid white;
 }
 @media (max-width: 764px){
    #my-image{
-      width: 200px;
-      height: auto;
+      width: 220px;
+      height: 220px;
    }
    @media (max-width: 576px) {
       #my-image{
-         width: 150px;
-         height: auto;
+         width: 180px;
+         height: 180px;
       }
    }
 }
